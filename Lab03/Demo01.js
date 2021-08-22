@@ -7,7 +7,12 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end("GET method");
+    object = {
+        name: 'product01',
+        price: 2000
+    };
+    // res.end(object);
+    res.end(JSON.stringify(object));
 });
 
 app.post('/', (req, res) => {
