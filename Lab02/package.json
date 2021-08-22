@@ -1,0 +1,18 @@
+{
+  "name": "lab02",
+  "version": "1.0.0",
+  "description": "DTTX, NodeJS, ExpressJS, NMCNPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node demo01.js",
+    "start":"nodemon demo01.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "nmcnpm"
+  ],
+  "author": "KoiDev13",
+  "license": "MIT"
+}
